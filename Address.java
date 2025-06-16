@@ -4,7 +4,7 @@ public class Address {
     private String state;
     private String zip;
 
-    public Address() {}
+    public Address() {}  // <-- THIS IS REQUIRED
 
     public Address(String street, String city, String state, String zip) {
         this.street = street;
@@ -24,9 +24,4 @@ public class Address {
 
     public String getZip() { return zip; }
     public void setZip(String zip) { this.zip = zip; }
-
-    @Override
-    public String toString() {
-        return street + ", " + city + ", " + state + " " + zip;
-    }
 }
