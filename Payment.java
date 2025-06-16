@@ -2,7 +2,7 @@ public class Payment {
     private String method;
     private String cardLast4;
     private double totalAmount;
-
+    public Payment() {}
     public Payment(String method, String cardLast4, double totalAmount) {
         this.method = method;
         this.cardLast4 = cardLast4;
